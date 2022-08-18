@@ -10,7 +10,7 @@ setup(
     description="A small package for ANN Implementation",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/sohailsheikh09/ANN-Implementation-DLCVNLP-demo000",
+    url="https://github.com/sohailsheikh09/ANN-Implementation-DLCVNLP-demo",
     author_email="smsheikh@gmail.com",
     packages=["src"],
     python_requires=">=3.7",
