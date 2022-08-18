@@ -31,3 +31,8 @@ def save_model(model, model_name, model_dir):
     unique_filename = get_unique_filename(model_name)
     path_to_model = os.path.join(model_dir, unique_filename)
     model.save(path_to_model)
+
+
+def test():
+    a = 2 + 2
+    return a
