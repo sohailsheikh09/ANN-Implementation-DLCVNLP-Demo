@@ -28,7 +28,7 @@ def training(config_path):
     CALLBACK_LIST = get_callbacks(config,X_train)
 
     history = model.fit(X_train, y_train, epochs=EPOCHS,
-                        validation_data=VALIDATION_SET,callbacks=CALLBACK_LIST))
+                        validation_data=VALIDATION_SET,callbacks=CALLBACK_LIST)
 
     artifacts_dir = config["artifacts"]["artifacts_dir"]
 
